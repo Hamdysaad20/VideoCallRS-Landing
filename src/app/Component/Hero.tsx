@@ -7,11 +7,11 @@ function Hero() {
   const [username, setUsername] = useState("");
   const [meetingId, setMeetingId] = useState("");
 
-  const handleUsernameChange = (event) => {
+  const handleUsernameChange = (event:any) => {
     setUsername(event.target.value);
   };
 
-  const handleMeetingIdChange = (event) => {
+  const handleMeetingIdChange = (event:any) => {
     setMeetingId(event.target.value);
   };
 

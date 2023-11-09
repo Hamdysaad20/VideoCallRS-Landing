@@ -2,12 +2,7 @@
     import contributorsData from './date.json';
     import Card from './Card';
 
-    interface Contributor {
-      id: string;
-      name: string;
-      github: string;
-      picture: string;
-    }
+ 
  
     function Contributors(): JSX.Element {
       return (
@@ -30,7 +25,7 @@
             </p>
           </div>
           <div className="flex flex-wrap gap-2 justify-center max-w-[1400px] items-center -m-6 pt-32 pb-36 dark:text-white">
-            {contributorsData.contributors?.map((contributor: Contributor) => (
+            {contributorsData.contributors?.map((contributor) => (
               <Card
                 key={contributor.id}
                 name={contributor.name}

@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 
 
-function Card(props) {
+function Card(props:any) {
     const githubLink = `https://github.com/${props.username}`;
 
     return (

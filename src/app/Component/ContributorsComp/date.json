@@ -1,29 +1,34 @@
 {
-  "contributors": [
-    {
-      "name": "Dario Lencina",
-      "github": "darioalessandro",
-      "picture": "https://github.com/darioalessandro.png"
-    },
-    {
-      "name": "Griffin Obeid",
-      "github": "griffobeid",
-      "picture": "https://github.com/griffobeid.png"
-    },
-    {
-      "name": "ronen",
-      "github": "ronen",
-      "picture": "https://github.com/ronen.png"
-    },
-    {
-      "name": "leon3s",
-      "github": "leon3s",
-      "picture": "https://github.com/leon3s.png"
-    },
-    {
-      "name": "JasterV",
-      "github": "JasterV",
-      "picture": "https://github.com/JasterV.png"
-    }
-  ]
+    "contributors": [
+        {
+            "id": 1,
+            "name": "Dario Lencina",
+            "github": "darioalessandro",
+            "picture": "https://github.com/darioalessandro.png"
+        },
+        {
+            "id": 2,
+            "name": "Griffin Obeid",
+            "github": "griffobeid",
+            "picture": "https://github.com/griffobeid.png"
+        },
+        {
+            "id": 3,
+            "name": "ronen",
+            "github": "ronen",
+            "picture": "https://github.com/ronen.png"
+        },
+        {
+            "id": 4,
+            "name": "leon3s",
+            "github": "leon3s",
+            "picture": "https://github.com/leon3s.png"
+        },
+        {
+            "id": 5,
+            "name": "JasterV",
+            "github": "JasterV",
+            "picture": "https://github.com/JasterV.png"
+        }
+    ]
 }
