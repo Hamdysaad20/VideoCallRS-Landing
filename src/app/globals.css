@@ -1,6 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'MyFontBold';
+  src: url('/fonts/static/Catamaran-ExtraBold.ttf') format('woff2'),
+       url('/fonts/myfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'MyFont', sans-serif;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;

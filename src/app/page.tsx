@@ -10,8 +10,9 @@ export default function Home() {
    <Headers/>
      <Hero/>
      <JoinMeetingCTA/>
+     <WHYUS/>   
      <Contributors/>
-      <WHYUS/>      
+       
       
       
       

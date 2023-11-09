@@ -6,7 +6,8 @@ import Image from "next/image";
 const Header = () => {
   return (
     <section
-      className="navbar py-6 bg-white shadow-sm fixed top-0 left-0 right-0 z-50"
+    style={{ fontFamily: "MyFontBold" }}
+      className="navbar py-6 bg-gray-300 shadow-sm fixed top-0 left-0 right-0 z-50"
       data-path="0.0"
     >
       <div
@@ -18,14 +19,12 @@ const Header = () => {
             <div className="w-auto" data-path="0.0.0.0.0.0">
               <Link href="/" data-path="0.0.0.0.0.0.0">
              
-                  <Image
-                    src="/gradia-assets/logos/gradia-name-black.svg"
-                    alt=""
-                    data-config-id="auto-img-1-2"
-                    data-path="0.0.0.0.0.0.0.0"
-                    width={200}
-                    height={50}
-                  />
+              <h1
+                className="font-heading font-extrabold text-lg lg:text-2xl text-gray-900 hover:text-gray-700 mx-auto text-center w-48"
+                style={{ display: "block" }}
+              >
+                VideoCall-rs
+              </h1>
               
               </Link>
             </div>
@@ -88,13 +87,7 @@ const Header = () => {
             <div className="w-auto hidden lg:block" data-path="0.0.1.0.0">
               <div className="flex flex-wrap" data-path="0.0.1.0.0.0">
                 <div className="w-auto" data-path="0.0.1.0.0.0.0">
-                  <button
-                    className="font-heading block py-2 px-5 mr-5 text-lg text-gray-900 rounded-10"
-                    data-config-id="auto-txt-5-2"
-                    data-path="0.0.1.0.0.0.0.0"
-                  >
-                    Login
-                  </button>
+
                 </div>
                 <div className="w-auto" data-path="0.0.1.0.0.0.1">
                   <button

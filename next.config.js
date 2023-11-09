@@ -1,10 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    withGithub: {
-        enabled: true,
-        githubRepo: 'username/repo-name',
-        githubBranch: 'main',
-    },
+    reactStrictMode: true,
     images: {
         domains: ['github.com'],
     },
