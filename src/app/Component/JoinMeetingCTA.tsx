@@ -16,11 +16,11 @@ import React, { useState } from "react";
                     const handleMeetingIdChange = (event:any) => {
                         setMeetingId(event.target.value);
                     };
-
-                    const handleConnectClick = () => {
-                        console.log(`Connecting ${username} to meeting ${meetingId}`);
-                        // Add your connect logic here
+                    const handleConnectClick = (event: React.FormEvent<HTMLFormElement>) => {
+                        event.preventDefault();
+                        window.location.href = `https://rustlemania.com/meeting/${username}/${meetingId}`;
                     };
+  
 
                     return (
                         <div
@@ -34,35 +34,37 @@ import React, { useState } from "react";
                                 <p className="text-white text-lg mb-4" style={{ fontFamily: "Arial", fontSize: "1.2rem" }}>
                                     Enter your name and meeting ID to join the meeting
                                 </p>
-                                <div className="flex flex-col md:flex-row w-full items-center justify-center">
-                                    <input
-                                        type="text"
-                                        placeholder="UserName"
-                                        value={username}
-                                        onChange={handleUsernameChange}
-                                        className="border border-gray-400 rounded-md px-4 py-2 mb-4 md:mr-2 w-full md:w-auto text-lg transition-all duration-300 flex-1"
-                                        style={{ maxWidth: "300px", width: "100%" }}
-                                    />
-                                    <input
-                                        type="text"
-                                        placeholder="MeetingID"
-                                        value={meetingId}
-                                        onChange={handleMeetingIdChange}
-                                        className="border border-gray-400 rounded-md px-4 py-2 mb-4 md:ml-2 w-full md:w-auto text-lg transition-all duration-300 flex-1"
-                                        style={{ maxWidth: "300px", width: "100%" }}
-                                    />
-                                <button
-                                    type="button"
-                                    onClick={handleConnectClick}
-                                    className="border border-gray-400 rounded-md px-4 py-2 mb-4 md:ml-2 w-full md:w-auto text-lg transition-all duration-300 flex-1 hover:bg-blue-500 hover:text-white"
-                                    style={{ maxWidth: "200px", width: "100%" }}
-                                >
-                                    Connect
-                                </button>
-                                </div>
+                            
+                                    <form className="flex flex-col md:flex-row w-full items-center justify-center " onSubmit={handleConnectClick}>
+                                        <input
+                                            type="text"
+                                            placeholder="UserName"
+                                            value={username}
+                                            onChange={handleUsernameChange}
+                                            className="border border-gray-400/20 rounded-md px-4 py-2 mb-4 md:mr-2 w-full md:w-auto text-lg transition-all duration-300 flex-1 bg-gray-800"
+                                            style={{ maxWidth: "300px", width: "100%" }}
+                                        />
+                                        <input
+                                            type="text"
+                                            placeholder="MeetingID"
+                                            value={meetingId}
+                                            onChange={handleMeetingIdChange}
+                                            className="border border-gray-400/20 rounded-md px-4 py-2 mb-4 md:ml-2 w-full md:w-auto text-lg transition-all duration-300 flex-1 bg-gray-800"
+                                            style={{ maxWidth: "300px", width: "100%" }}
+                                        />
+                                        <button
+                                            type="submit"
+                                            className="border border-gray-400 rounded-md px-4 py-2 mb-4 md:ml-2 w-full md:w-auto text-lg transition-all duration-300 flex-1 hover:bg-blue-500 hover:text-white"
+                                            style={{ maxWidth: "200px", width: "100%" }}
+                                        >
+                                            Connect
+                                        </button>
+                                    </form>
+                                
                             </div>
                         </div>
                     );
+                   
                 }
 
       
