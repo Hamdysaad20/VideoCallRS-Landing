@@ -3,11 +3,14 @@ import React from 'react'
 function WHYUS() {
   return (
     <div
-    className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]"
+    style={{fontFamily: 'MyFontBold'}}
+    className="relative flex place-items-center flex-col  box-content "
     >
-         <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-      <div className="text-center max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold mb-8">Why VideoCall-rs?</h2>
+         <div className="relative flex place-items-center box-content before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+      <div className="text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-32 relative z-10 space-y-12 lg:space-y-24 text-white dark:text-gray-100 font-bold text-3xl lg:text-6xl
+      
+      ">
+        <h2 className=" font-bold mb-8 bg-black">Why VideoCall-rs?</h2>
       
       </div>
       
@@ -26,7 +29,9 @@ function WHYUS() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          <p 
+          
+          className={`m-0 max-w-[30ch] text-sm opacity-50  `}>
           VideoCall-rs is open-source, providing flexibility and control over the application.
           </p>
         </a>

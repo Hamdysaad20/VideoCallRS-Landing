@@ -23,9 +23,12 @@ import React, { useState } from "react";
                     };
 
                     return (
-                        <div className="flex justify-center h-64 bg-slate-800 dark:bg-neutral-700/20 my-32 w-full">
+                        <div
+                        
+                        style={{fontFamily: 'MyFontBold'}}
+                        className="flex justify-center box-content text-center py-32 bg-slate-800 dark:bg-neutral-700/20  w-full">
                             <div className="flex flex-col justify-center items-center w-full md:w-1/2">
-                                <h2 className="text-4xl capitalize font-bold text-white mb-4" style={{ fontFamily: "Arial", fontWeight: "bold" }}>
+                                <h2 className="text-6xl capitalize font-bold text-white mb-4">
                                     Join the Meeting
                                 </h2>
                                 <p className="text-white text-lg mb-4" style={{ fontFamily: "Arial", fontSize: "1.2rem" }}>

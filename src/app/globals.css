@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @font-face {
   font-family: 'MyFontBold';
   src: url('/fonts/static/Catamaran-ExtraBold.ttf') format('woff2'),
@@ -11,6 +12,10 @@
 
 body {
   font-family: 'MyFont', sans-serif;
+  box-sizing: border-content;
+  margin: 0;
+  padding: 0;
+
 }
 
 :root {
@@ -35,4 +40,11 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-content;
+  margin: 0;
+  padding: 0;
 }

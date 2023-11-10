@@ -2,12 +2,13 @@ import React from "react";
 
 import Link from "next/link";
 import Image from "next/image";
+import css from "styled-jsx/css";
 
 const Header = () => {
   return (
     <section
     style={{ fontFamily: "MyFontBold" }}
-      className="navbar py-6 bg-gray-300 shadow-sm fixed top-0 left-0 right-0 z-50"
+      className=" box-content w-full py-3 md:py-6 overflow-hidden bg-gray-300 shadow-sm fixed top-0 left-0 right-0 z-50"
       data-path="0.0"
     >
       <div
@@ -16,11 +17,11 @@ const Header = () => {
       >
         <div className="w-auto" data-path="0.0.0.0">
           <div className="flex flex-wrap items-center" data-path="0.0.0.0.0">
-            <div className="w-auto" data-path="0.0.0.0.0.0">
-              <Link href="/" data-path="0.0.0.0.0.0.0">
+            <div className="w-auto">
+              <Link href="/" >
              
               <h1
-                className="font-heading font-extrabold text-lg lg:text-2xl text-gray-900 hover:text-gray-700 mx-auto text-center w-48"
+                className="font-heading font-extrabold text-3xl  text-gray-900 hover:text-gray-700 mx-auto lg:text-center w-48"
                 style={{ display: "block" }}
               >
                 VideoCall-rs
@@ -109,7 +110,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <div className="w-auto lg:hidden" data-path="0.0.1.0.1">
+            <div className="w-auto p-2 lg:hidden" data-path="0.0.1.0.1">
            
                 <svg
                   className="navbar-burger text-gray-800"
@@ -327,3 +328,4 @@ const Header = () => {
 };
 
 export default Header;
+
