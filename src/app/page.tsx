@@ -5,6 +5,7 @@ import JoinMeetingCTA from './Component/JoinMeetingCTA'
 import Contributors from './Component/ContributorsComp/Contributors'
 import WHYUS from './Component/WHYUS'
 import Header2 from './Component/Example'
+import Footer from "./Component/Footer"
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between box-content ">
@@ -15,7 +16,7 @@ export default function Home() {
      <WHYUS/>   
      <Contributors/>
        
-      
+      <Footer/>
       
       
       
