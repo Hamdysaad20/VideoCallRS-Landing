@@ -48,3 +48,49 @@ An open-source, Rust-made video communication software that runs anywhere.
 * Implement virtual backgrounds.
 * Implement meeting analytics.
 * Implement sign language interpretation (accessibility).
+
+
+---
+# Landing Page (Storylines)
+- What is the VideoCall-rs?
+- Who is using it and trusts it?
+    - Section ``` trusted by``` and add at least 4 companies
+    - Showcase how these companies use them  (if possible)
+- What do VideoCall-rs do?
+   - Made in Rust Section (referred to Page).
+   - Run anywhere.
+   - Video Communication usage.
+   - Open-source.
+- Showcase what it does.
+   > card that holds the showcase title and summary of the project (referred to as a full blog post)
+   * One-to-one
+   * Video conference (webinar)
+   * Video sharing
+   * Customer support
+   * Remote Work integration app
+- Blog Plug for new updates on the showcases and the features in detail
+- Privacy policy and security
+- CTA to Support the Project
+- Footer with important links and the project license.
+- CTA Sections for Quick Start Doc or Page (Help Portal)
+   - add a Support Section for people who can't set it up by them solve to have a one-to-one section (Paid)
+   - Need Help Session to help integrate the videocall-rs into the system 
+---
+# Made in Rust
+- What is Rust?
+- why do they make it in rust?
+- How it is being made? (Diagrams and Drawing pictures custom website design)
+- Dependencies and Usage
+### The limitation 
+- Only works on Chrome or Chromium-based browsers
+
+### The Benifits
+- Highly-scalable architecture
+- Written in Rust
+- Using WebCodecs API
+- Multiple connection types supported
+- Open source & MIT licensed
+
+
+
+
