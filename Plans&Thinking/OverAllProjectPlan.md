@@ -93,35 +93,37 @@ An open-source, Rust-made video communication software that runs anywhere.
 - How it is being made? (Diagrams and Drawing pictures custom website design)
 - Dependencies and Usage
 
+## Free Marketplace for VideoCall-rs
 
-# Free Marketplace
-> The Free Marketplace for software built on top of VideoCall-rs. 
-list a
-- It provides developers with a platform to showcase their software and connect with potential users or other developers.
-- The Free Marketplace is free to use for both developers and users. Developers can create a profile, list and promote their software (Held for review before), and receive feedback from users. - Users, on the other hand, can browse through the various software offerings and (Contribute/integrate/go to the website) the ones that meet their needs.
-## benefits:
-**for VideoCall-rs** :
-- New revenue opportunities (charging commissions on sales, Boot the visibility, Priority support (Fast Support Calls), Analytics and reporting, Custom branding on the listing)
-- Stronger brand recognition and trust
-- Faster innovation: A marketplace can accelerate innovation by providing a platform for developers to share ideas and collaborate on new projects. This can benefit both your customers and your business.
+### Benefits for developers:
 
+* Showcase their software and connect with potential users or other developers.
+* Receive feedback from users.
+* Create a profile and list their software for free.
 
+### Benefits for users:
 
+* Browse through a variety of software offerings.
+* Contribute to or integrate with software that meets their needs.
 
+### For VideoCall-rs:
 
-- **Marketing**: Increase visibility and reach a wider audience.
-- **Revenue**: Generate revenue and save on marketing costs.
-- **Identity**: Establish platform identity and community.
-- community
-- feedback
+* New revenue opportunities: charging commissions on sales, boosting visibility, offering priority support, analytics and reporting, and custom branding on listings.
+* Stronger brand recognition and trust.
+* Faster innovation: a marketplace can accelerate innovation by providing a platform for developers to share ideas and collaborate on new projects.
+* Increased data collection and insights: collect more data about how your software is being used and what features are most popular. This data can be used to improve your software and develop new features.
 
-# SaaS VideoCall-rs
-> Sell templates for all the use cases with various scalability options, and the hosting option with bandwidth and request control.
-**Free templates:** Free templates are a good way to attract new customers to your marketplace. 
-**Premium templates:** Premium templates offer more features and functionality than free templates. You can charge a one-time fee or a monthly subscription fee for premium templates.
-**Custom templates:** Custom templates are designed to meet the specific needs of a business or organization. You can charge a higher price for custom templates, but you will need to invest more time and resources into creating them. (Maybe integrate it with a Support session Cost)
+## SaaS VideoCall-rs
 
+Sell templates for all the use cases with various scalability options, and the hosting option with bandwidth and request control.
 
+* **Free templates:** Free templates are a good way to attract new customers to your marketplace.
+* **Premium templates:** Premium templates offer more features and functionality than free templates. You can charge a one-time fee or a monthly subscription fee for premium templates.
+* **Custom templates:** Custom templates are designed to meet the specific needs of a business or organization. You can charge a higher price for custom templates, but you will need to invest more time and resources into creating them. (Maybe integrate it with a Support session Cost)
 
+## Marketing
 
-
+* Increase visibility and reach a wider audience.
+* Generate revenue and save on marketing costs.
+* Establish platform identity and community.
+* Get feedback from users.
