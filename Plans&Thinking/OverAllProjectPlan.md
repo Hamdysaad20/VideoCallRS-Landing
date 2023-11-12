@@ -64,6 +64,7 @@ An open-source, Rust-made video communication software that runs anywhere.
 - Showcase what it does.
    > card that holds the showcase title and summary of the project (referred to as a full blog post)
    * One-to-one
+   * RC Car (referred to Blog).
    * Video conference (webinar)
    * Video sharing
    * Customer support
@@ -74,22 +75,23 @@ An open-source, Rust-made video communication software that runs anywhere.
 - Footer with important links and the project license.
 - CTA Sections for Quick Start Doc or Page (Help Portal)
    - add a Support Section for people who can't set it up by them solve to have a one-to-one section (Paid)
-   - Need Help Session to help integrate the videocall-rs into the system 
+   - Need Help Session to help integrate the VideoCall-rs into the system
+### The limitation 
+- Only works on Chrome or Chromium-based browsers
+  (Show that should not be a problem if there is a fallback or if it will be supported in the future)
+- show supported indicators in other browsers ( List of all supported browsers and their versions.)
+### The Benefits
+- Highly-scalable architecture
+- Written in Rust
+- Using WebCodecs API
+- Multiple connection types supported
+- Open-source & MIT licensed
 ---
 # Made in Rust
 - What is Rust?
 - why do they make it in rust?
 - How it is being made? (Diagrams and Drawing pictures custom website design)
 - Dependencies and Usage
-### The limitation 
-- Only works on Chrome or Chromium-based browsers
-
-### The Benifits
-- Highly-scalable architecture
-- Written in Rust
-- Using WebCodecs API
-- Multiple connection types supported
-- Open source & MIT licensed
 
 
 
